@@ -1,118 +1,128 @@
+# Lunar Frontier
+
 ## Concept
 
-Lunar Frontier is een interactieve 3D webervaring waarin de gebruiker een futuristische maanbasis kan verkennen.  
-Het project combineert real‑time 3D‑graphics, physics en een dynamische user interface om een rustige maar technologisch geavanceerde wereld te creëren.
+Lunar Frontier is an interactive 3D web experience where users can explore a futuristic lunar base.
 
-De gebruiker kan vrij navigeren rond de maanbasis, locaties selecteren en informatie bekijken via directe interactie of een live minimap.  
-Daarnaast bevat de ervaring een rond rijdende maanrover animatie en een physics‑gebaseerde meteorietinteractie die de wereld extra dynamiek geeft.
+The project combines React Three Fiber, rapier physics, and a dynamic user interface to create a calm yet technologically advanced environment.
 
-Het project focust op het gevoel van exploratie, controle en aanwezigheid in een digitale ruimte.
+Users can freely navigate around the lunar base, select different locations, and view contextual information through direct interaction or a live minimap. The experience also features an animated lunar rover driving around the base and a physics-based meteorite interaction that adds an extra layer of dynamism to the world.
 
----
-
-## Technische aanpak
-
-Lunar Frontier is opgebouwd als een web‑based 3D applicatie met moderne front‑end technologieën.
-
-### Gebruikte technologieën
-
-- **React** – algemene applicatiestructuur
-- **React Three Fiber** – koppeling tussen React en Three.js
-- **@react-three/drei** – helpers voor loaders, environment en UI
-- **Rapier Physics** – real‑time physics simulatie
-- **GSAP** – animaties en UI‑transities
-- **Leva** – debugging en parametercontrole tijdens development
-- **Blender** – modelleren van de 3D‑wereld en assets
+The project focuses on creating a sense of exploration, control, and presence within a digital environment.
 
 ---
 
-## Interactie
+## Technical Approach
 
-De gebruiker kan:
+Lunar Frontier is built as a web-based 3D application using modern front-end technologies.
 
-- Interageren door locaties te selecteren in de 3D‑wereld
-- Navigeren via een live minimap
-- Informatie bekijken per locatie
-- Een meteoriet laten inslaan via locatie‑gebaseerde interactie
+### Technologies Used
+
+- **React** – Overall application structure
+- **React Three Fiber** – Integration between React and Three.js
+- **@react-three/drei** – Helpers for model loading, environments, and UI
+- **Rapier Physics** – Real-time physics simulation
+- **GSAP** – Animations and UI transitions
+- **Leva** – Debugging and parameter controls during development
+- **Blender** – Modeling the 3D environment and assets
 
 ---
 
-## Assets & credits
+## Interaction
 
-### Eigen werk
+Users can:
 
-De volgende modellen zijn volledig zelf gemaakt in Blender:
+- Interact with locations within the 3D environment
+- Navigate using a live minimap
+- View information for each location
+- Trigger a meteorite impact through location-based interaction
 
-- Het maanoppervlak
-- De maanhabitat:
-  - de gang
-  - de glazen koepel
-  - het ronde gebouw
-- De rakettoren
-- Het lanceerplatform
+---
 
-### Externe modellen (Sketchfab)
+## Assets & Credits
 
-- **Raket (SpaceX Starship)**  
+### Original Work
+
+The following models were created entirely by me in Blender:
+
+- The lunar surface
+- The lunar habitat:
+  - The corridor
+  - The glass dome
+  - The circular building
+- The rocket tower
+- The launch platform
+
+### External Models (Sketchfab)
+
+- **Rocket (SpaceX Starship)**  
   https://sketchfab.com/3d-models/spacex-starship-a8a0b69f776841a1a465cd9fb3762fd2
 
-- **Rover (aangepast)**  
+- **Rover (modified)**  
   https://sketchfab.com/3d-models/mars-rover-2-51650fa1c23c48818a05aa1ece9f712e  
-  _Kleuren aangepast en onderdelen verwijderd._
+  _Colors were modified and several parts were removed._
 
-- **Meteoriet / komeet**  
+- **Meteorite / Asteroid**  
   https://sketchfab.com/3d-models/asteroid-d3b95b50c02a482d927f224b623bb83d
 
-- **Gepotte planten**  
+- **Potted Plants**  
   https://sketchfab.com/3d-models/optimized-potted-plants-967b4bf23fac4098993776fcfc2d3318
 
-- **Zonnepaneel**  
+- **Solar Panel**  
   https://sketchfab.com/3d-models/solar-panel-83483a66f8974d7e8f2e7bbde518d606
 
-- **Satelliettoren**  
-  Royalty‑free
+- **Satellite Tower**  
+  Royalty-free
 
 ### Textures & HDRI
 
-- **Textures:**
+**Textures**
 
-  - AmbientCG
-  - Poliigon  
-    (allemaal royalty‑free)
+- AmbientCG
+- Poliigon
 
-- **HDRI:**
-  - BlenderKit (royalty‑free)
+(All royalty-free.)
+
+**HDRI**
+
+- BlenderKit (royalty-free)
 
 ### Audio
 
-- **Achtergrondmuziek applicatie:**  
-  _Morning Light_ — Epic Spectrum  
-  Source: https://freetouse.com/music
+**Application Background Music**
 
-- **Muziek promovideo:**  
-  _Dawn_ — Alegend  
-  Source: https://freetouse.com/music
+_Morning Light_ — Epic Spectrum  
+Source: https://freetouse.com/music
 
-- **Sound effects (klik & impact):**  
-  Royalty‑free
+**Promotional Video Music**
 
-Alle assets worden gebruikt voor **educatieve doeleinden**.
+_Dawn_ — Alegend  
+Source: https://freetouse.com/music
+
+**Sound Effects (click & meteorite impact)**
+
+Royalty-free
+
+All assets are used for **educational purposes**.
 
 ---
 
-## Project lokaal runnen
+## Running the Project Locally
 
-### Vereisten
+### Requirements
 
-- **Node.js** (v18 of hoger aanbevolen)
+- **Node.js** (v18 or later recommended)
 - **npm**
 
-### Installatie
+### Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-De applicatie is daarna beschikbaar via:
+The application will then be available at:
+
+```
 http://localhost:5173
+```
