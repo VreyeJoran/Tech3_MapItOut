@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.00001mm"
+   height="120.00001mm"
+   viewBox="0 0 120.00001 120.00001"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="radar_map.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0806047"
+     inkscape:cx="396.99995"
+     inkscape:cy="561.25984"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="120.00001"
+       height="120.00001"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.778846,-64.67333)">
+    <g
+       id="g3">
+      <circle
+         style="fill:none;stroke:#a5f3fc;stroke-width:0.50046;stroke-dasharray:none;stroke-opacity:0.5"
+         id="path1"
+         cx="107.77885"
+         cy="124.67333"
+         r="49.749771" />
+      <circle
+         style="fill:none;stroke:#a5f3fc;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:0.5"
+         id="circle1"
+         cx="107.77885"
+         cy="124.67333"
+         r="24.874886" />
+      <path
+         style="fill:none;stroke:#a5f3fc;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:0.5"
+         d="M 47.778848,124.67333 H 167.77885"
+         id="path2" />
+      <path
+         style="fill:none;stroke:#a5f3fc;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:0.5"
+         d="M 107.77885,184.67333 V 64.673332"
+         id="path3" />
+    </g>
+  </g>
+</svg>

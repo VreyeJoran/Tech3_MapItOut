@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: url(/fonts/source-code-pro.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url(/fonts/source-sans-3.ttf) format("truetype");
+}
+
+@theme {
+  --font-headings: "Source Code Pro", monospace;
+  --font-body: "Source Sans 3", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-headings);
+  }
+}
